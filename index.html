@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <form  action="https://formsubmit.co/aaffaann1122ee@gmail.com" method="POST">
+            <h2>Form</h2>
+
+        <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" name="Name" required>
+        </div>
+            
+        <div class="field">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="field">
+            <label for="number">Phone Number:</label>
+            <input type="tel" name="phone number" required>
+        </div>
+
+        <div class="field">
+            <label for="password">Password:</label>
+            <input type="password" name="code">
+        </div>
+
+        <div class="field">
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" >
+        </div>
+
+        <div class="field">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" >
+        </div>
+
+        <div class="field">
+            <label for="gender">Gender:</label>
+            <div class="input"><input type="radio" name="gender" value="male" required> Male</div>
+            <div class="input"><input type="radio" name="gender" value="female"> Female</div>
+        </div>
+
+        <div class="field">
+            <label for="interests">Select Interests:</label>
+            <div class="input"><input type="checkbox" name="interests" value="coding" required> Coding</div>
+            <div class="input"><input type="checkbox" name="interests" value="design"> Design</div>
+            <div class="input"><input type="checkbox" name="interests" value="marketing"> Marketing</div>
+        </div>
+
+        <div class="field">
+            <label for="country">Country:</label>
+            <select name="country" required>
+              <option value="">-- Select Country --</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="resume">Upload Resume:</label>
+            <input type="file" name="resume">
+        </div>
+
+        <div class="field">
+            <label for="message">Message:</label>
+            <textarea name="message" rows="10" ></textarea>
+        </div>
+
+        <button>Submit</button>
+
+        <input type="hidden" name="redirect" value="https://yoursite.com/thank-you">
+        </form>
+    </div>
+</body>
+</html>
