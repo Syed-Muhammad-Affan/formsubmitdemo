@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 30%;
+    width: 30%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field input{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.field .label{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.field textarea{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+form button{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
